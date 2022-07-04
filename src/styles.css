@@ -1,10 +1,30 @@
+:root{
+    --main-color:#7B2CBF;
+
+}
 h1{
     text-align: center;
-    color: #7B2CBF;
+    color: var(--main-color);
     text-decoration: underline;
 }
 .main-image{
     max-width: 50%;
     display: block;
     margin: auto;
+}
+.content{
+    display: felx;
+    text-align: justify;
+    margin: 3% 5%;
+    border-radius: 4px;
+    box-shadow: 4px 5px 15px #aa72e3;
+    box-sizing: content-box;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-height: max-content;
+   
+}
+.connecting-pages{
+    display: flex;
+    justify-content: space-evenly;
 }
