@@ -1,6 +1,10 @@
 :root{
     --main-color:#7B2CBF;
+ 
 
+}
+body{
+    background-color: RGBA(250, 237, 205, 0.21);
 }
 h1{
     text-align: center;
@@ -21,7 +25,7 @@ h1{
     box-sizing: content-box;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-height: max-content;
+    background-color: #fff;
    
 }
 .connecting-pages{
