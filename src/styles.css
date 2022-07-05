@@ -30,10 +30,7 @@ h2{
 .container{
     display: grid;
 }
-.connecting-pages{
-   
-    justify-content: space-evenly;
-}
+
 p{
     text-align: center;
     line-height: 1.5;
@@ -41,7 +38,7 @@ p{
     text-align: justify;
 }
 
-img{
+img, video{
     height: auto;
     max-width: 100%;
     margin: auto;
@@ -52,6 +49,7 @@ footer{
 .container-fluid{
     padding:20px;
     border-radius: 10px;
+    
 }
 
 #contactDisplay{
