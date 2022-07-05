@@ -4,91 +4,173 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="/src/styles.css" />
     <title>Homepage</title>
   </head>
   <body>
+    <!-- navigation bar  -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Discover more</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Homepage</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/photo.html">Feast with your eyes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Place your order</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- main body -->
     <h1>The story about Croissants</h1>
-    <div class="content">
-      <p>
-        A croissant is a buttery, flaky, French viennoiserie pastry
-        <b> inspired by the shape of the Austrian kipferl</b> but using the
-        French yeast-leavened laminated dough. Croissants are named for their
-        historical crescent shape, the dough is layered with butter, rolled and
-        folded several times in succession, then rolled into a thin sheet, in a
-        technique called laminating. The process results in a layered, flaky
-        texture, similar to a puff pastry.
-        <br />
-        <br />
-        <b
-          >The origin of croissant, can be dated back to at least the 13th
-          century in Austria</b
-        >
-        , and came in various shapes. The kipferl can be made plain or with nuts
-        or other fillings (some consider the rugelach a form of kipferl). The
-        birth of the croissant itself—that is, its adaptation from the plainer
-        form of kipferl, before the invention of viennoiseries—can be dated to
-        at least 1839 (some say 1838) when an Austrian artillery officer, August
-        Zang, founded a Viennese bakery ("Boulangerie Viennoise") at 92, rue de
-        Richelieu in Paris. This bakery, which served Viennese specialties
-        including the kipferl and the Vienna loaf, quickly became popular and
-        inspired French imitators (and the concept, if not the term, of
-        viennoiserie, a 20th-century term for supposedly Vienna-style pastries).
-        The French version of the kipferl was named for its crescent (croissant)
-        shape and has become a universally identifiable shape across the world.
-      </p>
-      <p>
-        Stories of how the Kipferl — and so, ultimately, the croissant — was
-        created are widespread and persistent culinary legends, going back to
-        the 19th century. However, there are no contemporary sources for any of
-        these stories, and an aristocratic writer, writing in 1799, does not
-        mention the Kipferl in a long and extensive list of breakfast foods. The
-        legends include tales that it was invented in Europe to celebrate the
-        defeat of the Umayyad forces by the Franks at the Battle of Tours in
-        732, with the shape representing the Islamic crescent; that it was
-        invented in Buda; or, according to other sources, in Vienna in 1683 to
-        celebrate the defeat of the Ottomans by Christian forces in the siege of
-        the city, as a reference to the crescents on the Ottoman flags, when
-        bakers staying up all night heard the tunneling operation and gave the
-        alarm.
-      </p>
-      <p>
-        The above mentioned Alan Davidson proposed that the Islamic origin story
-        originated with 20th-century writer Alfred Gottschalk, who gave two
-        versions, one in the Larousse Gastronomique and the other in his History
-        of Food and Gastronomy:
-        <br />
-        <em>
-          According to one of a group of similar legends, which vary only in
-          detail, a baker of the 17th century, working through the night at a
-          time when his city (either Vienna in 1683 or Budapest in 1686) was
-          under siege by the Turks, heard faint underground rumbling sounds
-          which, on investigation, proved to be caused by a Turkish attempt to
-          invade the city by tunneling under the walls. The tunnel was blown up.
-          The baker asked no reward other than the exclusive right to bake
-          crescent-shaped pastries commemorating the incident, the crescent
-          being the symbol of Islam. He was duly rewarded in this way, and the
-          croissant was born. The story seems to owe its origin, or at least its
-          wide diffusion, to Alfred Gottschalk, who wrote about the croissant
-          for the first edition [1938] of the Larousse Gastronomique and there
-          gave the legend in the Turkish attack on Budapest in 1686 version; but
-          on the history of food, opted for the 'siege of Vienna in 1683'
-          version.</em
-        >
-        <br />
-        — Alan Davidson, Oxford Companion to Food
-      </p>
-      <p>
-        For more information please visit
-        <a href="https://en.wikipedia.org/wiki/Croissant"> Croissant </a>
-      </p>
-    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            A croissant is a buttery, flaky, French viennoiserie pastry
+            <b> inspired by the shape of the Austrian kipferl</b> but using the
+            French yeast-leavened laminated dough. Croissants are named for
+            their historical crescent shape, the dough is layered with butter,
+            rolled and folded several times in succession, then rolled into a
+            thin sheet, in a technique called laminating. The process results in
+            a layered, flaky texture, similar to a puff pastry.
+          </p>
+          <div class="col-md-6">
+            <img
+              src="/images/croissant cafe.jpg"
+              alt=""
+              class="img-fluid rounded"
+              style="width: 22%"
+            />
+          </div>
+        </div>
+      </div>
 
-    <div class="connecting-pages">
-      <a href="/photo.html"> Feasts with your eyes </a>
-      <br />
-      <br />
-      <a href="/contact.html"> Place your order </a>
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            <b>
+              The origin of croissant, can be dated back to at least the 13th
+              century in Austria </b
+            >, and came in various shapes. The kipferl can be made plain or with
+            nuts or other fillings (some consider the rugelach a form of
+            kipferl). The birth of the croissant itself—that is, its adaptation
+            from the plainer form of kipferl, before the invention of
+            viennoiseries—can be dated to at least 1839 (some say 1838) when an
+            Austrian artillery officer, August Zang, founded a Viennese bakery
+            ("Boulangerie Viennoise") at 92, rue de Richelieu in Paris. This
+            bakery, which served Viennese specialties including the kipferl and
+            the Vienna loaf, quickly became popular and inspired French
+            imitators (and the concept, if not the term, of viennoiserie, a
+            20th-century term for supposedly Vienna-style pastries). The French
+            version of the kipferl was named for its crescent (croissant) shape
+            and has become a universally identifiable shape across the world.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="/images/croissant with flowers.jpg"
+            alt=""
+            class="img-fluid rounded"
+            style="width: 22%"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            Stories of how the Kipferl — and so, ultimately, the croissant — was
+            created are widespread and persistent culinary legends, going back
+            to the 19th century. However, there are no contemporary sources for
+            any of these stories, and an aristocratic writer, writing in 1799,
+            does not mention the Kipferl in a long and extensive list of
+            breakfast foods. The legends include tales that it was invented in
+            Europe to celebrate the defeat of the Umayyad forces by the Franks
+            at the Battle of Tours in 732, with the shape representing the
+            Islamic crescent; that it was invented in Buda; or, according to
+            other sources, in Vienna in 1683 to celebrate the defeat of the
+            Ottomans by Christian forces in the siege of the city, as a
+            reference to the crescents on the Ottoman flags, when bakers staying
+            up all night heard the tunneling operation and gave the alarm.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="/images/croissant on a tray.jpg"
+            alt=""
+            class="img-fluid rounded"
+            style="width: 22%"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <em>
+            According to one of a group of similar legends, which vary only in
+            detail, a baker of the 17th century, working through the night at a
+            time when his city (either Vienna in 1683 or Budapest in 1686) was
+            under siege by the Turks, heard faint underground rumbling sounds
+            which, on investigation, proved to be caused by a Turkish attempt to
+            invade the city by tunneling under the walls. The tunnel was blown
+            up. The baker asked no reward other than the exclusive right to bake
+            crescent-shaped pastries commemorating the incident, the crescent
+            being the symbol of Islam. He was duly rewarded in this way, and the
+            croissant was born. The story seems to owe its origin, or at least
+            its wide diffusion, to Alfred Gottschalk, who wrote about the
+            croissant for the first edition [1938] of the Larousse Gastronomique
+            and there gave the legend in the Turkish attack on Budapest in 1686
+            version; but on the history of food, opted for the 'siege of Vienna
+            in 1683' version.</em
+          >
+          <br />
+          — Alan Davidson, Oxford Companion to Food
+          <p>
+            For more information please visit
+            <a href="https://en.wikipedia.org/wiki/Croissant"> Croissant </a>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="/images/croissant with milk.jpg"
+            alt=""
+            class="img-fluid rounded"
+            style="width: 22%"
+          />
+        </div>
+      </div>
     </div>
   </body>
 </html>
