@@ -6,7 +6,7 @@
         122,
         112, 0.21);
 }
-.navbar-brand, .nav-link{
+#navbarNav, .nav-link{
     color: #6e472e;
 }
 .nav-link:hover{
