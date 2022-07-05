@@ -26,11 +26,7 @@ h1{
 h2{
     color: #907a70;
 }
-.main-image{
-    max-width: 50%;
-    display: block;
-    margin: auto;
-}
+
 .container{
     display: grid;
 }
@@ -52,4 +48,8 @@ img{
 }
 footer{
    margin-bottom: 4%;
+}
+.container-fluid{
+    padding:20px;
+    border-radius: 10px;
 }
