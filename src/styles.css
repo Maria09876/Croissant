@@ -1,15 +1,30 @@
 :root{
-    --main-color:#7B2CBF;
- 
-
+    --main-color:#5b4b45;
+}
+.container-fluid{
+    background-color: rgba(144,
+        122,
+        112, 0.21);
+}
+.navbar-brand, .nav-link{
+    color: #6e472e;
+}
+.nav-link:hover{
+    color: #332014;
 }
 body{
-    background-color: RGBA(250, 237, 205, 0.21);
+    background-color: RGBA(224,
+        219,
+        216, 0.21);
+    text-align: center;
 }
 h1{
     text-align: center;
     color: var(--main-color);
     text-decoration: underline;
+}
+h2{
+    color: #907a70;
 }
 .main-image{
     max-width: 50%;
@@ -20,6 +35,21 @@ h1{
     display: grid;
 }
 .connecting-pages{
-    display: flex;
+   
     justify-content: space-evenly;
+}
+p{
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px;   
+    text-align: justify;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+}
+footer{
+   margin-bottom: 4%;
 }
